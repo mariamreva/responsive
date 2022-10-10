@@ -254,9 +254,23 @@ input[type=tel] {
 	.header img{
 		width: 200px;
 		height: 100px;
+		transform: translateX(50%);
+	}
+	.mainimg{
+		width: 100%;
+		height: 200px;
+	}
+	.images{
+		width: 100%;
+	}
+	.images img{
+		margin-bottom: 10px;
 	}
 	.last{
 		display: none;
+	}
+	.paragraph{
+		transform: translateX(10%);
 	}
 	.secbut{
 		width: 100%;
