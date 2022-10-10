@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+/*Header*/
+ul{
+ 	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	height: 300px;
+	background-color: blue;
+}
+.header, .navbarul{
+	display: flex;
+}
+.header{
+	justify-content: space-between;
+}
+.header img, .navbar{
+	margin-top: 50px;
+}
+.li{
+	margin: 0 12px ;
+	font-size: 14px;
+}
+.li a{
+	color: white;
+}
+.navbar{
+	margin-right: 30px;
+}
+.header img{
+	height: 40px;
+	width: 80px;
+	margin-left: 30px;
+}
+.contactbut{
+	background-color: white;
+	padding: 18px;
+	color: black;
+	font-size: 14px;
+	margin-left: 10px;
+	font-weight: bolder;
+	border-radius: 100px;
+}
+/*Section*/
+.blog{
+	transform: translateX(10%)
+}
+.mainimg{
+	width: 80%;
+	height: 450px;
+	margin-bottom: 30px;
+	margin-top: -120px;
+}
+.images{
+	display: flex;
+	width: 80%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+}
+.images{
+	justify-content: space-between;
+}
+.images img{
+	width: 150px;
+	height: 150px;
+}
+.paragraph{
+	width: 80%;
+}
+.paragraph p{
+	line-height: 1.5;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.secbut{
+	background-color: #0A22F4; /* Blue */
+  	border: none;
+  	border-radius: 28px;
+  	color: white;
+  	padding: 18px 57px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	font-weight: bolder;
+  	margin-top: 30px;
+  	margin-bottom: 90px;
+  	cursor:pointer;
+  	transform: translateX(80%)
+}
+/*Footer*/
+footer{
+	background-color: blue;
+	height: 720px;
+}
+.footer{
+	transform: translateX(5%);
+	margin-bottom: 30px;
+}
+.footer h2{
+ 	font-size: 20px;
+ 	margin-bottom: 20px;
+ 	color: white;
+ }
+ .contact{
+ 	background-color: blue;
+ 	display: grid;
+ 	grid-template-areas: "firsthalf secondhalf";
+ 	grid-column-gap: 100px;
+ }
+ .firsthalf p, iframe, .us,{
+ 	grid-area: firsthalf;
+ }
+ .formrow, .button{
+ 	grid-area: secondhalf;
+ }
+ .firsthalf p{
+ 	width: 50%;
+ 	margin-bottom: 40px;
+ 	line-height: 1.3;
+ 	font-size: 14px;
+ 	color: white;
+ }
+ iframe{
+ 	width: 400px;
+ 	height: 200px;
+ }
+ .us{
+ 	width: 500px;
+ 	display: flex;
+ 	margin-top: 40px;
+ 	margin-bottom: 215px;
+ 	color: white;
+ }
+ .us img{
+ 	width: 50px;
+ 	height: 50px;
+ 	padding: 16px;
+ 	background-color: white;
+ 	margin-right: 10px;
+ 	border-radius: 100px;
+ }
+ .us, .call {
+	display: flex;
+}
+.call{
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 50px;
+}
+.formrow{
+ 	display: flex;
+ 	flex-direction: column;
+ 	margin-top: 40px;
+ 	color: white;
+/* 	margin-right: 40px;*/
+ 	transform: translateX(-50%);
+
+ }
+.button {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+input{
+	background-color: blue;
+	width: 300px;
+}
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+input[type=email] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+input[type=tel] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.write input{
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: blue;
+  resize: none;
+}
+.formrow, .username, .mail, .write, .mobile{
+	font-size: 14px;
+	font-weight: bolder;
+}
+.username, label, input{
+	display: block;
+}
+.formrow input, .formrow label{
+	margin-bottom: 20px;
+}
+
+/*bottom*/
+.bottom, .lovesm, .love, .smart, span{
+	display: flex;
+}
+.bottom{
+	justify-content: space-between;
+	color: white;
+	font-size: 14px;
+	margin-bottom: 40px;
+	background-color: blue;
+	margin-right: 90px;
+}
+.lovesm{
+	justify-content: space-between;
+	align-items: center;
+}
+.love{
+	margin-right: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+.love span{
+	margin-right: 5px;
+}
+.smart img{
+	width: 80px;
+	height: 24px;
+}
+.love img{
+	width: 24px;
+	height: 24px;
+}
+
+@media (max-width: 1024px){
+	.navbar{
+		display: none;
+	}
+	.header img{
+		width: 200px;
+		height: 100px;
+	}
+	.last{
+		display: none;
+	}
+	.secbut{
+		width: 100%;
+		transform: translateX(0%);
+	}
+	.contact{
+		grid-template-areas: 100%; 
+		grid-column-gap: 20px;
+	}
+	.bottom{
+		flex-direction: column-reverse;
+	}
+	.bottom .lovesm{
+		margin-bottom: 20px;
+	}
+
+
+}
