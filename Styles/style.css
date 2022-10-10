@@ -246,6 +246,9 @@ input[type=tel] {
 	width: 24px;
 	height: 24px;
 }
+.burger{
+	display: none;
+}
 
 @media (max-width: 1024px){
 	.navbar{
@@ -287,6 +290,25 @@ input[type=tel] {
 	.bottom .lovesm{
 		margin-bottom: 20px;
 	}
+	.copy{
+		transform: translateX(35%);
+	}
+	.copy span{
+		opacity: 60%;
+	}
+	.footer p{
+		display: none;
+	}
+	.burger{
+		display: flex;
+		transform: translateX(40%);
+		margin-bottom: 30px;
+	}
+	.burger img{
+		width: 100px;
+		height: 100px;
+	}
+
 
 
 }
