@@ -265,6 +265,7 @@ input[type=tel] {
 	}
 	.images img{
 		margin-bottom: 10px;
+		width: 180px;
 	}
 	.last{
 		display: none;
